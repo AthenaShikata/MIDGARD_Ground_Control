@@ -2431,16 +2431,11 @@ COMPLETED:
     
 TO DO
 High Priority: 
-    Verify valve actuation works on NI (highly likely, 99% chance it works) (use dsub breakout board or bread board for test!)
-    Test changes to ssr channel writing and labjack channel writing
-    Test dual_mpva and hotfire with dual_mpva (ask how precise lead time needs to be and if we need lead time at the end of the burn. simulated NI is about 1/4 ms longer than lead time, get labjack too). 
-    Add extra run conditions to hotfire (dual_mpvas, mfv, mov, n2purge, igniter)
-    Flow Stand Configuration
-    Torch Igniter Configuration
-    Valve State Logging
+    Added radio communication and NORN protocol compatibility
+    Add new sensors and data types
+    Add servo control and alignment
 Medium Priority:
     Go thru procedure to add more safety checks (igniter cond_false hotfire and hotfire lock, hotfire manually sets igniter? check for spaces or invalid characters in names)
-    Test real NI on linux
 Low Priority:
 
 '''
