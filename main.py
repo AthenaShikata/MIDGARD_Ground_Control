@@ -14,6 +14,10 @@ from labjack import ljm
 
 
 '''
+Disclaimer - This program was originally made for the SDSU Rocket Project Synnax Ground Control project, but was never used by them. This was origianlly meant as a rewrite of the original software to be more efficient, modular, and ultimately more reliable, but was ignored. As such, I have forked my own repository to continue developing this program for my own purposes. The only original code that remains is extremely simple and mostly for configuration. All of the logic in entirely my own. 
+
+
+
 Startup Instructions
 
 Open command line terminal or vs code terminal. Run the following command:
